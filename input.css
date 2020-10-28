@@ -1,0 +1,120 @@
+*{box-sizing: border-box;}
+
+body {
+  width: 600px;
+  margin: 5px auto;
+}
+
+.top h1 {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.top p {
+  padding: 20px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.top .red {
+  padding: 0;
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.box .tytle {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 7px;
+  background-color: #b4afaf;
+  text-align: center;
+  opacity: 0.9;
+  border: #867f7f solid 1px;
+  margin-bottom: 0;
+}
+
+.one {
+  display: flex;
+}
+
+.box .left {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  padding: 6px;
+  background-color:  #e4e1e154;
+  border: #867f7f solid  1px;
+}
+
+.box .left p {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 7px 20px;
+}
+
+.box  .red-box {
+  background-color: red;
+  color: white;
+  padding: 2px;
+}
+
+.box .form {
+  display: flex;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.box .form p {
+  width: 30%;
+}
+
+.box .form input {
+  width: 50%;
+}
+
+.box .right .red {
+  font-size: 12px;
+  color: red;
+  font-weight: 600;
+}
+
+.box .right p {
+  margin: 3px 10px;
+}
+
+
+.box .right {
+  border: #867f7f solid  1px;
+  width: 380px;
+}
+
+.box .right .small-red {
+  font-size: 5px;
+}
+
+.box .right .form-large p {
+  width: 100%;
+}
+
+.one .right textarea {
+  width: 97%;
+  margin: 5px ;
+}
+
+.box-under {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.box-under input {
+  width: 100px;
+  height: 40px;
+}
+
+.box-under p {
+  font-size: 13px;
+  margin: 40px;
+}

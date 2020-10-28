@@ -1,0 +1,581 @@
+@charset "utf-8";
+
+
+@media screen and (max-width: 1190px) {
+
+  header .header-left p {
+    font-size: 80%;
+  }
+
+  header .btn a {
+    font-size: 12px;
+  }
+  .main11 .circles {
+    display: block;
+  }
+
+  .main11   {
+    font-size: 70%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 1015px){
+  .main7 .boxes {
+    display: block;
+    padding-top: 40px;
+  }
+  
+  .main7 .box {
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  .white .person {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  .main9 .lists {
+    display: block;
+    width: 60%;
+  }
+  
+  .main9 .list-in p {
+    font-size: 12px;
+  }
+  
+  .main9 .list {
+    width: 90%;
+  }
+  
+  
+  
+  
+  .main9 .blue p {
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .main13 .style {
+    font-size: 22px;
+  }
+  
+  .main13 .styles {
+    font-size: 17px;
+  }
+  
+  .main13 .bottom {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .main13 .bottom p {
+    font-size: 14px;
+  }
+  
+  .main13 {
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .main13 .bottom img {
+    width: 100%;
+  }
+}
+ 
+
+@media screen and (max-width: 768px) {
+
+
+  header {
+    display: flex;
+    position: fixed;
+    height: 62px;
+  }
+
+  header .btn {
+   display: none;
+  }
+
+  header .ipad-btn {
+    display: block;
+    width: 76px;
+    height: 62px;
+    background-color: #d86c67;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px 0;
+  }
+
+  header .ipad-btn img {
+    height: 33px;
+    width: 25px;
+  }
+
+  header .ipad-btn a {
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+  }
+
+  header .ipad-btn a:hover {
+    text-decoration: underline;
+  }
+
+
+  header .header-left {
+   display: flex;
+   flex-direction: column;
+  }
+
+  header .header-left img {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    margin: 0;
+  }
+
+  header .header-left p {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .main1 {
+  background-image: url(img/mainsp.jpg);
+  background-size: cover;
+  font-size: 80%;
+  padding: 80px 0 40px 0;
+  }
+
+  .main2 .text1 {
+    font-size: 15px;
+  }
+
+  .main2 .point {
+    width: 60%;
+  }
+  
+  .main2 .btn1 {
+    width: 90%;
+  }
+
+  .main2 .text1 br {
+    display: inline;
+  }
+
+  .main3 {
+    position: relative;
+    height: 750px;
+  }
+  
+  .main3 .text {
+    margin: 0 auto;
+  }
+
+  .break {
+    display: inline;
+  }
+
+  .main3 h1 {
+    display: block;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .main3 h1::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    border-top: 4px solid #dbb94d;
+    border-left: 4px solid #dbb94d;
+  }
+  
+  .main3 h1::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #dbb94d;
+    border-right: 4px solid #dbb94d;
+  }
+
+  .main4 .boxes img {
+   height: 25%;
+  }
+
+  .main4 .boxes p {
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .main4 .boxes .box-text {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+ .main5 h2 {
+   font-size: 18px;
+ }
+
+ .main5 p {
+   font-size: 13px;
+ }
+
+ .main5 .step {
+   display: block;
+   width: 90%;
+   margin: 10px auto;
+   padding: 10px;
+ }
+ .main5 .steps {
+   display: block;
+   width: 100%;
+   
+ }
+
+ .blue p {
+   font-size: 12px;
+ }
+
+
+ .main6 h4 {
+   font-size: 13px;
+ }
+
+ .main7 {
+   padding: 0;
+ }
+
+ .main7 .top {
+   font-size: 10px;
+ }
+
+ .main7 .top::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  left: 10px;
+  border-top: 4px solid #dbb94d;
+  border-left: 4px solid #dbb94d;
+}
+
+.main7 .top::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  bottom: 10px;
+  right: 10px;
+  border-bottom: 4px solid #dbb94d;
+  border-right: 4px solid #dbb94d;
+}
+
+ .main7 .boxes {
+  display: block;
+  padding-top: 40px;
+}
+
+.main7 .box {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  
+}
+
+.main7 .boxes .box img {
+  width: 50%
+   
+}
+
+.main7 .box p {
+  font-size: 12px;
+}
+
+.main7 .box h3 {
+  font-size: 15px;
+}
+
+.main7 .text {
+  width: 100%;
+}
+
+.main7 .text h3 {
+  font-size: 20px;
+}
+
+.main7 .text h4 {
+  font-size: 16px;
+}
+
+.main7 .text p {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.main7 .bottom p {
+  font-size: 12px;
+}
+
+.break-none {
+  display: none;
+}
+
+.main8 h1 {
+  font-size: 18px;
+}
+
+.main8 p {
+  font-size: 12px;
+}
+
+.main8 .persons {
+  display: block;
+  width: 100%;
+ 
+}
+
+.main8 .box-out {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.main8 .person {
+  padding: 30px;
+
+}
+
+.main8 .box-out img {
+  width:100px;
+  height: 100px;
+}
+
+.QA .circle {
+  width: 60px;
+  height: 60px;
+  font-size: 15px;
+}
+
+.QA p {
+  font-size: 15px;
+}
+
+.white h2 {
+  font-size: 20px;
+}
+
+.white h3,p {
+  font-size: 12px;
+}
+
+.white .person {
+  width: 100%;
+}
+
+.main9 .lists {
+  display: block;
+  width: 100%;
+}
+
+.main9 .list-in p {
+  font-size: 12px;
+}
+
+.main9 .list {
+  width: 90%;
+}
+
+
+
+
+.main9 .blue p {
+  font-size: 16px;
+  padding: 0;
+  width: 100%;
+}
+
+.main10 h2 {
+  font-size: 18px;
+}
+
+.main10 .img-top {
+  display: none;
+}
+
+.main10 .explanation,.line {
+  display: none;
+}
+
+.bangkok h2{
+  text-align: center;
+}
+.bangkok ul {
+  padding: 20px;
+}
+
+.bangkok li {
+  font-size: 12px;
+  line-height: 2.5;
+}
+
+.bangkok h3 {
+  font-size: 16px;
+}
+
+.main11 .box h1 {
+  font-size: 18px;
+}
+
+.main11 .circles {
+  display: none;
+}
+
+.main11 .responsive {
+  display: block;
+}
+
+.main11 .responsive .block {
+  display: flex;
+}
+
+.main11 .responsive .responsive-circle {
+  color: #dbb94d;
+  background-color: white;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  margin: 0 40px 12px 0;
+}
+
+.main11 .responsive .responsive-text {
+  color: white;
+  width: 70%;
+}
+
+.main12 .box {
+  font-size: 18px;
+  line-height: 2;
+  padding: 10px;
+}
+
+.main12 .box::before {
+  position: absolute;
+  box-sizing: border-box;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+.main12 .box::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: "";
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+
+.main12 p {
+  line-height: 1.8;
+  letter-spacing: 1.8;
+
+}
+
+.main12 .style {
+  font-size: 20px;
+}
+
+.main12 .none {
+  display: none;
+}
+
+.main13 .style {
+  font-size: 20px;
+}
+
+.main13 .styles {
+  font-size: 15px;
+}
+
+.main13 .bottom {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+
+.main13 .bottom p {
+  font-size: 14px;
+}
+
+.main13 {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.main13 .bottom img {
+  width: 100%;
+}
+
+.forms h2 {
+  font-size: 20px;
+}
+
+.form input,textarea{
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.form .red-btn {
+  width: 100%;
+}
+
+#page-top {
+  width: 40px;
+  height: 50px;
+}
+
+#page-top .fa-angle-up {
+  font-size: 1.5em;
+  padding: 13px 12px ;
+}
+
+
+}
